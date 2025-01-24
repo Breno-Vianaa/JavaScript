@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://picsum.photos/1600/900?random=1");
+    font: normal 15pt arial;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 4px solit #d4abab;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(5, 255, 22, 0.133);
+    padding: 20px 22px;
+}
